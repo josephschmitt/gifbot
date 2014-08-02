@@ -9,13 +9,11 @@ Gifbot Slack Integration
 You need to change the following values in order to get Gifbot working
 with your Slack channel.
 
-team_url:		(String) The url of your team's slack channel.
-webhook_token:	(String) The token of your incoming webhook integration.
+webhook_token:	(String) The url from your incoming webhook integration.
 
 */
 
-c::set('team_url', 'http://yourteam.slack.com');
-c::set('webhook_token', 'your_integration_token');
+c::set('webhook_url', 'http://your_unique_webhook_url');
 
 /*
 

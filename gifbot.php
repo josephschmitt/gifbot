@@ -6,8 +6,7 @@ $text = r::get('text', '');
 $user_name = r::get('user_name', '');
 $channel_name = r::get('channel_name', '');
 
-$webhook_token = c::get('webhook_token');
-$room_url = c::get('team_url') . 'services/hooks/incoming-webhook?token=' . $webhook_token;
+$webhook_url = c::get('webhook_url');
 $show_name = c::get('show_name');
 $botname = c::get('botname');
 $translate = c::get('translate');
@@ -69,7 +68,7 @@ else {
 	// Set some options - we are passing in a useragent too here
 
 	curl_setopt_array($curl, array(
-	    CURLOPT_URL => $room_url,
+	    CURLOPT_URL => $webhook_url,
 	    CURLOPT_POST => 1,
 	    CURLOPT_RETURNTRANSFER => true,
 	    CURLOPT_POSTFIELDS => $json
