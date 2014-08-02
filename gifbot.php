@@ -2,7 +2,7 @@
 require('toolkit/bootstrap.php');
 require('config.php');
 
-$text = r::get($_GET['text'], '');
+$text = r::get('text', '');
 $user_name = r::get('user_name', '');
 $channel_name = r::get('channel_name', '');
 
