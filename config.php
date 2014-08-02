@@ -44,7 +44,7 @@ giphy_api_key:	Giphy API key. Defaults to the public Giphy API key
 
 */
 c::set('translate', true);
-c::set('botname', 'gifbot')
+c::set('botname', 'gifbot');
 c::set('show_name', true);
 
 c::set('giphy_api_key', 'dc6zaTOxFJmzC');

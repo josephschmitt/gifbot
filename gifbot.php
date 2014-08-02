@@ -1,5 +1,6 @@
 <?php
-require_once('toolkit/bootstrap.php');
+require('toolkit/bootstrap.php');
+require('config.php');
 
 $text = r::get($_GET['text'], '');
 $user_name = r::get('user_name', '');
@@ -13,8 +14,8 @@ $translate = c::get('translate');
 $giphy_api_key = c::get('giphy_api_key');
 
 $term = str_replace(' ', '-', $text);
-$giphy_endpoint = 'http://api.giphy.com/v1/gifs/random?api_key=' . $giphy_api_key; // Default to getting a random gif
 $url = '';
+$giphy_endpoint = 'http://api.giphy.com/v1/gifs/random?api_key=' . $giphy_api_key; // Default to getting a random gif
 
 // If there's a search term, use one of the search API's
 if (!empty($term)) {
@@ -58,7 +59,7 @@ $json = array(
 	    );
 
 // If no slack request token, just render out the gif result to the page
-if (empty(r::get('token'))) {
+if (!r::get('token', null)) {
 	echo '<img src="' . $url . '" />';
 }
 // Integrate with Slack's incoming webhooks
