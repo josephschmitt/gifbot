@@ -51,3 +51,19 @@ Congrats, Slack is now setup to work with Gifbot! Now, let's get your Gifbot set
 3. Upload the contents of the repository to your web server. Make sure the URL you specified to Slack before points to the gifbot.php file.
 
 That's it, you're done! Head on over to a Slack channel, type in "/gif thumbs up" (without the quotes) and see what happens. Happy gif'ing!
+
+## Optional Configuration Settings
+
+The config.php file has a few extra options you can change:
+
+**translate**  
+(Boolean) Whether to use the Translation API or the standard search API. More information about the  difference can be found on Giphy's site: https://github.com/giphy/GiphyAPI#translate-endpoint
+
+**botname**  
+(String) The name displayed in Slack for the bot. Defaults to 'gifbot'.
+
+**show_name**  
+(Boolean) Whether or not to show the name of the Slack user that requested the gif after the botname. Eg. 'gifbot :: joe'.
+
+**giphy_api_key**  
+Giphy API key. Defaults to the public Giphy API key but if you run into their usage limits you might need to register for your own.
