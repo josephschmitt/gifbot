@@ -6,7 +6,15 @@ Do you find that you cannot properly and completely express yourself unless it's
 
 ## What is Gifbot?
 
-Gifbot is a set of integrations for Slack that allows you to easily post animated gifs to your Slack channel using [Giphy](http://gifphy.com)'s excellent gif search API. Once installed, simply type `/gif` followed by a search term and instantly see fantastic animated gifs based on your terms. Sometimes they're exactly what you wanted, sometimes they're not, but they're *always* entertaining.
+Gifbot is a set of integrations for Slack that allows you to easily post animated gifs to your Slack channel using [Giphy](http://gifphy.com)'s excellent gif search API. It'll take search term you provide and use that to try to find the most appropriate animated gif related to those words. It'll then display that gif directly inside your Slack channel.
+
+## How does it work?
+
+Once installed, simply type `/gif` followed by a search term and instantly see fantastic animated gifs based on your terms:
+
+![](http://cl.ly/Wrvs/image.gif)
+
+Sometimes they're exactly what you wanted, sometimes they're not, but they're *always* entertaining.
 
 ## Alright, I NEED this. Like, NOW. HOW DO I GET THIS INSTALLED??
 
