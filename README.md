@@ -23,7 +23,7 @@ All set? Good, let's set up your very own Gifbot!
 Let's start by setting up your Slack integrations to work with Gifbot. The first thing we need to set up is the command you'll use to trigger Gifbot, called a Slash Command.
 
 1. Head on over to Slack and [add a new integration](slack.com/services/new)
-2. Scroll down and ad a new Slash Command 
+2. Scroll down and ad a new Slash Command  
    ![](http://cl.ly/WsJY/image.png)
 3. Fill in the information under "Settings".
 	a. For command, enter in '/gif'
@@ -34,7 +34,7 @@ Let's start by setting up your Slack integrations to work with Gifbot. The first
 Next, we need to set up an Incoming Webhook, which will handle displaying the gif results from the Giphy API.
 
 1. Head back to the integrations and [add a new integration](slack.com/services/new)
-2. Scroll down and add a new Incoming Webhook 
+2. Scroll down and add a new Incoming Webhook  
    ![](http://cl.ly/Wrob/image.png)  
    Make sure you choose incoming, and not outgoing
 3. Choose a default channel for the webhook. Honestly, this option won't really matter since Gifbot will read the channel the slash command goes out to. The best option is to choose @slackbot so that it'll work with DMs with the Slackbot.
