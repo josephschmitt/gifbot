@@ -26,9 +26,9 @@ Let's start by setting up your Slack integrations to work with Gifbot. The first
 2. Scroll down and ad a new Slash Command  
    ![](http://cl.ly/WsJY/image.png)
 3. Fill in the information under "Settings".
-	a. For command, enter in '/gif'
-	b. For URL, point it to wherever you'll be uploading the gifbot.php file from this repository
-	c. The other two don't really matter
+	1. For command, enter in '/gif'
+	2. For URL, point it to wherever you'll be uploading the gifbot.php file from this repository
+	3. The other two don't really matter
 4. Save the integration
 
 Next, we need to set up an Incoming Webhook, which will handle displaying the gif results from the Giphy API.
