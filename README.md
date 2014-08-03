@@ -65,7 +65,7 @@ That's it, you're done! Head on over to a Slack channel, type in "/gif thumbs up
 The `config.php` file has a few extra options you can change:
 
 **translate**  
-(Boolean) Whether to use the Translation API or the standard search API. More information about the difference can be found on Giphy's API docs: https://github.com/giphy/GiphyAPI#translate-endpoint
+(Boolean) Whether to use the Translation API (the default) or the standard search API. If you opt out of the Translation API, gifbot will use the normal search API to get the top 25 results from Giphy and choose one from those at random. More information about the difference can be found on Giphy's API docs: https://github.com/giphy/GiphyAPI#translate-endpoint
 
 **botname**  
 (String) The name displayed in Slack for the bot. Defaults to 'gifbot'.
