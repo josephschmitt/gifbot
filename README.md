@@ -49,7 +49,7 @@ Next, we need to set up an Incoming Webhook, which will handle displaying the gi
 4. Add the webhook.
 5. Note and set aside the url under "Your Unique Webhook URL". We'll need this in a second.
 6. Scroll down to Integration Settings and expand it.
-7. Click on the link to "change the name of your bot" and give it a custom icon, like this one: https://github.com/Giphy/GiphyAPI/raw/master/api_giphy_logo_sparkle_clear.gif. This is completely optional, but it'll make your bot look extra cool.
+7. Click on the link to "change the icon" and give it a custom icon, like this one: https://github.com/Giphy/GiphyAPI/raw/master/api_giphy_logo_sparkle_clear.gif. This is completely optional, but it'll make your bot look extra cool.
 8. Save the integration.
 
 Congrats, Slack is now setup to work with Gifbot! Now, let's get your Gifbot set up on your server.
