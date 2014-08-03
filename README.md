@@ -14,7 +14,7 @@ Once installed, simply type `/gif` followed by a search term and instantly see a
 
 ![](http://cl.ly/Wrvs/image.gif)
 
-Sometimes they're exactly what you wanted, sometimes they're not, but they're *always* entertaining.
+Sometimes they're exactly what you wanted, sometimes they're not, but they're *always* entertaining. And if you ever really want to take the entertainment up to 11, you can type in just `/gif` to get a completely random gif.
 
 ## Alright, I NEED this. Like, NOW. HOW DO I GET THIS INSTALLED??
 
